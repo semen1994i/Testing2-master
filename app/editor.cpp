@@ -35,7 +35,7 @@ int main()
         printf("\ned > ");
 
         /* Получаем команду */
-        fgets(cmdline, MAXLINE, stdin);
+       // fgets(cmdline, MAXLINE, stdin);
 
         /* Извлекаем имя команды */
         if ((cmd = strtok(cmdline, " \n")) == NULL) {
