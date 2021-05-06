@@ -27,7 +27,7 @@ void remove_all(text txt)
         return;
     }
 
-   // txt->lines->erase(txt->lines->begin(), txt->lines->end());
-   // txt->cursor->position = 0;
-   // txt->cursor->line_num = 0;
+    txt->lines->erase(txt->lines->begin(), txt->lines->end());
+    txt->cursor->position = 0;
+    txt->cursor->line_num = 0;
 }
