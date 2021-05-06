@@ -1,4 +1,4 @@
-dist: bionic
+dist: linux
 
 language:
   - cpp
